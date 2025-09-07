@@ -42,7 +42,7 @@ function pingGoogle() {
 pingGoogle();
 
 // Потім кожні 5 хвилин (300000 мс)
-setInterval(pingGoogle, 5 * 60 * 1000);
+setInterval(pingGoogle, 40000);
 
 app.listen(process.env.PORT || 3000, () => {
   console.log(`Server running on port ${process.env.PORT || 3000}`);
